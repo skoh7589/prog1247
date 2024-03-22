@@ -1,0 +1,134 @@
+<!--this is a comment(angled bracket then two hypeheons)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Rene, Descartes, 17th century, philosopher,cogito">
+    <meta name="description" contents ="This site is an article about the french philosopher Rene Descartes"/>
+    <title>Rene Descartes, 17th century philosopher</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        p{
+            color: black;
+        }
+
+
+
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <h1 id="header-heading" class="headings,main-headings"> Rene Descartes</h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="home-link"><a href="index.html">Home</a></li>
+            <li id="contact-link"><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2> Contact Form </h2>
+            <form name="contact_form" id="contact_form" method="post" action="contact.php">
+                <div>
+                    <input type="hidden" name="honeypot" value="">
+                </div>
+
+                <div>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Enter First Name" autofocus>
+                </div>
+
+                <div>
+                    <label for="lastname">Last Name:</label>
+                    <input type="password" id="lastname" name="lastname" placeholder="Enter last name">
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="userEmail" placeholder="Ex. example@gmail.com" >
+                </div>
+
+                <div>
+                    <label for="favoriteseason"> Favorite Season:</label>
+                    <select id="favoriteseason" name="select">
+
+                        <option value="">Select Season</option>
+                        <option value="Spring">Spring</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Fall">Fall</option>
+                        <option value="Winter">Winter</option>
+
+                    </select>
+                </div>
+
+                <div>
+                    <legend>What pet(s) do you have</legend>
+                    <label for="none"> none</label>
+                    <input type="radio" name="none" id="none" checked>
+                    <label for="cat">cat</label>
+                    <input type="radio" name="cat" id="cat">
+                    <label for="dog">dog</label>
+                    <input type="radio" name="dog" id="dog">
+                    <label for="other">other</label>
+                    <input type="radio" name="other" id="other">
+                </div>
+
+                <div> 
+                    <label for="comment">Additional Comments</label>
+                    <textarea name="comment" id="comment" rows="5" cols="100"></textarea>
+                </div>
+
+                <div>
+                    <label for="captcha" required>I AM NOT A ROBOT</label>
+                    <input type="checkbox" id="captcha" name="captcha" required>
+                </div>
+
+                <div>
+                    <input type="reset" id="clear" name="clear" value="Clear form">
+                    <input type="submit" id="submit" name="submit" value="Submit">
+                </div>
+
+            </form>
+        <footer>
+            <p>&copy; Sohrob Kohistani, 2024</p>
+        </footer>
+    
+    </main>
+    <aside>
+        <h3> FAQ</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Where was Rene born?</th>
+                    <th>Le Haye en Touraine, now renamed Descartes in his honor.</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <td>What language is his famous quote?</td>
+                <td>Latin.</td>
+            </tbody>
+
+            <tfoor>
+                <tr>
+                    <td>Did he have an impact on mathematics as well?</td>
+                    <td>Yes, he even influenced Isaac Newton with his constributions to mathetmatics.</td>
+                    
+                </tr>
+            </tfoor>
+        </table>
+        <h3> External Resources</h3>
+        <ol>
+            <li class="external-link"><a href="https://plato.stanford.edu/entries/descartes/" target="_blank">Stanford</a></li>
+            <li class="external-link"><a href="https://www.britannica.com/biography/Rene-Descartes" target="_self">Britannica</a></li>
+        </ol>
+    </aside>
+</body>
+</html>
